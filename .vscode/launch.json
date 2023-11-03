@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "writeImg",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/nsteiner/ros-writeimg/writeImg.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["-i", "/media/nsteiner/data2/harvardForest/Set3_September_20_2021/harv043/lbp_harv21_realsense_2021-09-20-13-57-45.bag"]
+        }
+
+    ]
+}
